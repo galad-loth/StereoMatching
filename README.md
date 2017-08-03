@@ -20,7 +20,7 @@ implementation of some basical stereo matching mathods:
 2. dynamic programming (to be done)
 3. semi-global matching (to be done)
 
-##references
+## references
 
 [1] Scharstein D, Szeliski R. A taxonomy and evaluation of dense two-frame stereo correspondence algorithms[J]. International journal of computer vision, 2002, 47(1-3): 7-42.
 
