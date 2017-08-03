@@ -21,6 +21,7 @@ implementation of some basical stereo matching mathods:
 3. semi-global matching (to be done)
 
 ##references
+
 [1] Scharstein D, Szeliski R. A taxonomy and evaluation of dense two-frame stereo correspondence algorithms[J]. International journal of computer vision, 2002, 47(1-3): 7-42.
 
 [2] Hirschmuller H, Scharstein D. Evaluation of cost functions for stereo matching[C]//Computer Vision and Pattern Recognition, 2007. CVPR'07. IEEE Conference on. IEEE, 2007: 1-8.
