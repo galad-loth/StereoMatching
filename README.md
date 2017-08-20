@@ -17,8 +17,9 @@ implementation of some basical stereo matching mathods:
 
 ## disparity optimization
 1. graph cut based
-2. dynamic programming (to be done)
-3. semi-global matching (to be done)
+2. scanline optimization
+3. dynamic programming (to be done)
+
 
 ## references
 
