@@ -61,6 +61,11 @@ switch lower(aggr_type)
        aggr_params.win_halfsize=6;
        aggr_params.sigma_spatial=3;
        aggr_params.sigma_color=20;
+    case 'so'
+       aggr_params.type='so';
+       aggr_params.punish_type='linear';
+       aggr_params.rau=20;
+       aggr_params.direction=0;
     otherwise
         error('Unknown cost aggregation Mathod');
 end
@@ -71,10 +76,21 @@ switch lower(glpopt_type)
     case 'gc' % graph cut
         glbopt_params.type='gc';
         glbopt_params.alpha=100;
-        glbopt_params.beta=5000;
+        glbopt_params.beta=3000;
         glbopt_params.sigma=20;
+    case 'dp'
+        glbopt_params.type='dp';
+        glbopt_params.oclu_cost=50;
+    case 'so'
+       glbopt_params.type='so';
+       glbopt_params.punish_type='linear';
+       glbopt_params.rau=15;
+       glbopt_params.ori=1;
     case 'sgm' % semi-gobal matching
-        glbopt_params.type='sgm';
+        glbopt_params.type='sgm';  
+       glbopt_params.punish_type='linear';
+       glbopt_params.rau=15;
+       glbopt_params.ori=[1,2,3,4,5,6,7,8];
     otherwise
         error('Unknown optimization type');
 end
