@@ -8,5 +8,5 @@ switch lower(glbopt_params.type)
     case 'so'
         d=DisparityOptSO(cost, params);        
     case 'sgm'
-        d=DisparityOptSGM(cost, img1, img2, params);
+        d=DisparityOptSGM(cost, params);
 end
