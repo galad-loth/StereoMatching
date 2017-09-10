@@ -1,6 +1,8 @@
 # StereoMatching
 implementation of some basical stereo matching mathods:
 
+![Result][https://github.com/galad-loth/StereoMatching/blob/master/data/result.jpg]
+
 ## Stereo match cost computation
 1. absolute differences
 2. Squared difference
